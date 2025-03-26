@@ -13,11 +13,7 @@
     <NuspecFile>$(MSBuildProjectName).nuspec</NuspecFile>
     <PackageId>Swashbuckle.AspNetCore</PackageId>
     <PackageTags>swagger;documentation;discovery;help;webapi;aspnet;aspnetcore</PackageTags>
-    <TargetFrameworks>net9.0;net8.0;netstandard2.0</TargetFrameworks>
-  </PropertyGroup>
-
-  <PropertyGroup Condition=" '$(TargetFramework)' == 'net8.0' ">
-    <MicrosoftExtensionsApiDescriptionServerPackageVersion>8.0.0</MicrosoftExtensionsApiDescriptionServerPackageVersion>
+    <TargetFrameworks>net9.0;netstandard2.0</TargetFrameworks>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(TargetFramework)' == 'net9.0' ">
